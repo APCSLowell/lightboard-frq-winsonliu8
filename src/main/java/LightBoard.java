@@ -15,7 +15,7 @@ public class LightBoard
     for (int r = 0; r < numRows; r++){
       for (int c = 0; c < numRows[0].length; c++){
         int i = (int)(Math.random() * 100)+1; 
-        if (i <= 40{)
+        if (i <= 40){
           lights[r][c] = true; 
         }
         else{
@@ -34,8 +34,9 @@ public class LightBoard
   {
     /* to be implemented in part (b) */
      if (lights[row][col] == true){
-       private int lightsOn1 = 0; 
+       private int lightsOn1; 
        for (int r = 0; r < numCols; r++){
+         lightsOn1 = 0; 
          if (lights[r][col] == true){
            lightsOn1++; 
          }
@@ -45,8 +46,9 @@ public class LightBoard
        }
      }
     else if (lights [row][col] == false){
-      private int lightsOn2 = 0; 
+      private int lightsOn2 ; 
       for (int r = 0; r < numCols; r++){
+        lightsOn2 = 0; 
         if (lights[r][col]==true){
           lightsOn2++; 
         }
