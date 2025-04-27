@@ -58,7 +58,6 @@ public class LightBoard
     else{
         return lights[row][col]; 
     }
-    }
  
   }
   public boolean[][] getLights()
