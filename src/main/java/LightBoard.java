@@ -36,7 +36,7 @@ public class LightBoard
         int lightsOn1 = 0; 
         int lightsOn2= 0;
      if (lights[row][col] == true){
-       for (int r = 0; r < col; r++){
+       for (int r = 0; r < lights[0].length; r++){
          if (lights[r][col] == true){
            lightsOn1++; 
          }
@@ -46,7 +46,7 @@ public class LightBoard
        }
      }
     else if (lights [row][col] == false){ 
-      for (int r = 0; r < col; r++){
+      for (int r = 0; r < lights[0].length; r++){
         if (lights[r][col]==true){
           lightsOn2++; 
         }
