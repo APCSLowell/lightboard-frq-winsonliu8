@@ -33,10 +33,9 @@ public class LightBoard
   public boolean evaluateLight(int row, int col)
   {
     /* to be implemented in part (b) */
+     private int lightsOn1 = 0; 
      if (lights[row][col] == true){
-       private int lightsOn1; 
        for (int r = 0; r < numCols; r++){
-         lightsOn1 = 0; 
          if (lights[r][col] == true){
            lightsOn1++; 
          }
@@ -45,10 +44,9 @@ public class LightBoard
          return false; 
        }
      }
-    else if (lights [row][col] == false){
-      private int lightsOn2 ; 
+    private int lightsOn2= 0;
+    else if (lights [row][col] == false){ 
       for (int r = 0; r < numCols; r++){
-        lightsOn2 = 0; 
         if (lights[r][col]==true){
           lightsOn2++; 
         }
