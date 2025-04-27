@@ -58,7 +58,6 @@ public class LightBoard
     else{
         return lights[row][col]; 
     }
- 
   }
   public boolean[][] getLights()
   {
@@ -78,6 +77,5 @@ public class LightBoard
       s += "\n";
     }
     return s;
-  }
-  
+  }  
 }
