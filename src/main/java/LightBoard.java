@@ -54,9 +54,10 @@ public class LightBoard
       if (lightsOn2 % 3 == 0){
         return true; 
       }
-      else{
+    }
+    else{
         return lights[row][col]; 
-      }
+    }
     }
  
   }
